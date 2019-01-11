@@ -1,3 +1,5 @@
+require pry
+
 def hello_t(names)
   if block_given?
     i = 0
@@ -14,3 +16,4 @@ def hello_t(names)
 end
 
 # call your method here!
+binding.pry
