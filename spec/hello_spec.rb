@@ -1,4 +1,4 @@
-require "spec_helper"
+ require "spec_helper"
 
 describe "#hello_t" do
   let (:names) { ["Tim", "Tom", "Jim"] }
